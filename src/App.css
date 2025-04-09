@@ -1,0 +1,237 @@
+.header {
+    background-color: #cd1818;
+    /* height: 50px; */
+}
+
+#logo {
+    height: 80%;
+}
+
+.adminsidebar {
+    list-style: none;
+}
+
+.adminsidebar a {
+    color: #8890b5;
+}
+
+.adminsidebar a:hover {
+    color: #8890b5;
+    text-decoration: none;
+}
+
+.navlink-container {
+    display: flex;
+    line-height: 34px;
+}
+
+.topbar {
+    height: 250px;
+    background-color: #cd1818;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    padding-top: 50px;
+}
+
+.admin-title {
+    color: white;
+    margin-left: 30px;
+}
+
+.admin-content {
+    width: 95%;
+    background-color: #f5f6ff;
+    position: relative;
+    bottom: 100px;
+    left: 35px;
+    border-radius: 15px;
+    padding-bottom: 40px;
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.header-item:hover p{
+    font-size: 20px;
+    color: gray !important;
+}
+.bannerL img{
+    width: 100%;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+.bannerL img:hover{
+    transform: scale(1.1);
+}
+.bannerR img{
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+.bannerR img:hover{
+    transform: scale(1.1); /* To lên 1.2 lần kích thước gốc */
+}
+.product-sale{
+    display: flex;
+    justify-content: space-evenly;
+}
+.card{
+    border-radius: 15px !important;
+}
+.card:hover{
+    transform: scale(1.1); 
+}
+.card img{
+    padding: 10px;
+    height: 200px;
+}
+.card-body{
+    padding: 0 !important;
+    text-align: center;
+}
+.card-body p{
+    margin: 5px !important;
+}
+.btn{
+    width: 200px !important;
+    background-color: hsl(359,81%,52%) !important;
+
+}
+.hotsale{
+    padding: 20px;
+    background-color: #770404;
+}
+.card-text1{
+    text-decoration: line-through;
+}
+.card-text{
+  font-weight: bold;
+  font-size: 20px;
+  color: #cd1818;
+}
+.footer{
+    padding: 20px;
+    background-color: #cd1818;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 10px;
+}
+/* .searchCategory{
+    width: 50%;
+    border: 1px solid black;
+    border-radius: 5px;
+     background-color:#cd1818 ; 
+}   */
+.category:hover{
+    font-size: 20px;
+    color: gray !important;
+    font-weight: bold;
+}
+.pagging{
+    text-align: center;
+}
+.search-icon1{
+    font-size: 33px !important;
+    position: relative;
+    right:29px;
+}
+/* contact */
+.contact{
+    margin-top: 50px;
+    background-image: url("../public/images/background.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100vh;
+    background-attachment: fixed;   
+    
+}
+.avc{
+    margin-bottom: 69px;
+}
+.contact h1{
+  text-align: center;
+  font-size: 50px;
+  font-weight: bold;
+  color: hsl(359,81%,52%);
+  padding: 50px;
+}
+.left-contents h2{
+    font-weight: bold;
+    color: white;
+}
+.left-contents p{
+    display: block;
+    width: 300px;
+    font-size: 17px;
+    color: white;
+}
+.right-contents img{
+    width: 600px;
+    border-radius: 5px;
+}
+   
+    /* productdetails */
+    .phone-img img{
+        width: 300px;
+        height: 380px;
+    }
+    .phone-img{
+        text-align: center;
+    }
+    .phone-name{
+        margin-top: 50px;
+        margin-top: 20px;
+    }
+    .khuyenmai{
+        background-color: hsl(210,16%,93%);
+        margin: 10px 0;
+        border-radius: 3px;
+        padding: 5px;
+    }
+    .khuyenmai p{
+        margin: 0;
+        font-size: 15px;
+        font-weight: bold;
+    }
+    .buy{
+        background-color: hsl(358,76%,45%);
+        color: white;
+        outline: none;
+        border-radius: 3px;
+        border: none;
+        height: 55px;
+        margin: 5px 0;
+    }
+    .buy h5{
+       margin: 0;
+    }
+    .buy span{
+       font-size: 13px;
+    }
+    .payment{
+        padding: 10px;
+        color: white;
+        background-color: hsl(217,95%,50%);
+        border-radius: 3px;
+        border: none;
+    }
+    .payment h5{
+        margin-bottom: 0;
+    }
+    .payment span{
+        font-size: 13px;
+     
+    }
+    .x{
+        color: white;
+      
+    }
+
+    .x:hover{
+        text-decoration: none;
+        color: white;
+    }
+    .buy:hover ,.payment:hover{
+        transform: scale(1.1);
+    }
